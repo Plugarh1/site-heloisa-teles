@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Heloisa Teles Rafael | Psicóloga e Headhunter em São Paulo</title>
+<meta name="description" content="Psicóloga e headhunter que une olhar comportamental, mapeamento de mercado e processos eficientes para encontrar o talento certo. Recrutamento e seleção em São Paulo.">
+<meta name="keywords" content="headhunter São Paulo, psicóloga recrutamento, recrutamento e seleção, RH generalista">
+<meta name="theme-color" content="#16302B">
+<meta property="og:title" content="Heloisa Teles Rafael | Psicóloga e Headhunter">
+<meta property="og:description" content="Olhar comportamental, mapeamento de mercado e processos eficientes para encontrar o talento certo.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Heloisa Teles Rafael","jobTitle":"Psicóloga | Headhunter | Analista de RH Generalista","address":{"@type":"PostalAddress","addressLocality":"São Paulo","addressCountry":"BR"},"sameAs":["https://www.linkedin.com/in/heloisa-teles-rafael-5a948b1b6"]}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#inicio"><i>HT</i> Heloisa Teles Rafael</a>
+  <nav aria-label="Principal">
+   <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+   <ul id="menu">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#trajetoria">Trajetória</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#competencias">Competências</a></li>
+    <li><a class="btn btn-d" href="#contato">Fale comigo</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<main id="main">
+<section class="hero" id="inicio">
+ <div class="wrap">
+  <div>
+   <span class="selo">ψ Psicologia · R&amp;S</span>
+   <h1>Heloisa Teles Rafael</h1>
+   <p class="titulo">Psicóloga | Headhunter | Analista de RH Generalista</p>
+   <p class="frase">Psicóloga e headhunter que une olhar comportamental, mapeamento de mercado e processos eficientes para encontrar o talento certo.</p>
+   <div class="btns">
+    <a class="btn btn-p" href="#contato">Entrar em contato</a>
+    <a class="btn btn-s" href="#trajetoria">Ver trajetória</a>
+   </div>
+  </div>
+  <div class="foto" aria-label="Foto de Heloisa Teles Rafael"><span id="iniciais">HT</span></div>
+ </div>
+</section>
+
+<section class="alt" id="sobre">
+ <div class="wrap">
+  <p class="eyebrow">Sobre mim</p>
+  <h2>Quem sou</h2>
+  <div class="grid g2">
+   <div id="historia"></div>
+   <div>
+    <div class="caminho" id="caminho" aria-label="Caminho profissional"></div>
+    <p class="lead" style="margin:0">Atuo em São Paulo, com foco em processos claros, ética e eficiência.</p>
+   </div>
+  </div>
+  <h3 style="margin:36px 0 16px">Como trabalho</h3>
+  <div class="grid g4" id="valores"></div>
+ </div>
+</section>
+
+<section id="trajetoria">
+ <div class="wrap">
+  <p class="eyebrow">Trajetória</p>
+  <h2>Experiência e formação</h2>
+  <p class="lead">Da base em RH generalista ao headhunting consultivo.</p>
+  <div class="linha" id="linha"></div>
+  <h3 style="margin:40px 0 16px">Formação</h3>
+  <div class="grid g2" id="formacao"></div>
+ </div>
+</section>
+
+<section class="alt" id="servicos">
+ <div class="wrap">
+  <p class="eyebrow">Serviços</p>
+  <h2>Como posso ajudar sua empresa</h2>
+  <p class="lead">Para empresas e gestores de RH que precisam contratar.</p>
+  <div class="grid g4" id="servs"></div>
+  <ol class="etapas" id="etapas" aria-label="Etapas do processo"></ol>
+  <p style="margin-top:32px"><a class="btn btn-d" href="#contato" data-quero="Empresa">Solicitar conversa</a></p>
+ </div>
+</section>
+
+<section id="competencias">
+ <div class="wrap">
+  <p class="eyebrow">Competências</p>
+  <h2>O que levo para cada processo</h2>
+  <div id="comps"></div>
+ </div>
+</section>
+
+<section class="alt" id="contato">
+ <div class="wrap">
+  <p class="eyebrow">Contato</p>
+  <h2>Vamos conversar?</h2>
+  <p class="lead">Para contratar, buscar uma recolocação ou propor uma parceria.</p>
+  <div class="contato-grid">
+   <div class="atalhos" id="atalhos"></div>
+   <form id="form" novalidate>
+    <div class="row">
+     <div><label for="nome">Nome *</label><input id="nome" required autocomplete="name"><div class="erro"></div></div>
+     <div><label for="email">E-mail *</label><input id="email" type="email" required autocomplete="email"><div class="erro"></div></div>
+    </div>
+    <div class="row">
+     <div><label for="tel">Telefone / WhatsApp</label><input id="tel" type="tel" autocomplete="tel"></div>
+     <div><label for="tipo">Eu sou *</label>
+      <select id="tipo" required><option value="">Selecione</option><option>Empresa</option><option>Candidato</option><option>Parceiro</option><option>Outro</option></select><div class="erro"></div></div>
+    </div>
+    <div class="row" id="rowEmp" hidden>
+     <div><label for="empresa">Empresa</label><input id="empresa" autocomplete="organization"></div>
+     <div></div>
+    </div>
+    <div><label for="assunto">Assunto</label><input id="assunto"></div>
+    <div><label for="msg">Mensagem *</label><textarea id="msg" rows="5" required></textarea><div class="erro"></div></div>
+    <div class="hp" aria-hidden="true"><label>Não preencha<input id="site" tabindex="-1" autocomplete="off"></label></div>
+    <label class="consent"><input type="checkbox" id="lgpd" required> <span>Concordo com o uso dos meus dados para retorno de contato e processos seletivos, conforme a <a href="privacidade.html">Política de Privacidade</a>. *</span></label>
+    <div class="erro" id="erroLgpd"></div>
+    <button class="btn btn-d" type="submit">Enviar mensagem</button>
+    <div class="ok" id="ok" role="status">Obrigada! Seu aplicativo de e-mail foi aberto com a mensagem pronta. Basta enviar. Para anexar currículo (PDF), inclua o arquivo no e-mail.</div>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div><strong style="color:#fff">Heloisa Teles Rafael</strong><br>Psicóloga | Headhunter | RH<br>São Paulo, Brasil</div>
+  <div id="rodape"></div>
+  <div>© <span id="ano"></span> Heloisa Teles Rafael. Todos os direitos reservados.<br><a href="privacidade.html">Política de Privacidade</a></div>
+ </div>
+</footer>
+<a class="zap" id="zap" href="#contato" aria-label="Falar pelo WhatsApp" hidden>💬</a>
+<script src="app.js"></script>
+</body>
+</html>
